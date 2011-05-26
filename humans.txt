@@ -3,10 +3,10 @@
 
 
 /* TEAM */
-  <your title>: <your name>
-  Site: 
-  Twitter: 
-  Location: 
+  Director at Panoetic Ltd: Nathan Lisgo
+  Site: http://panoetic.com
+  Twitter: http://twitter.com/nlisgo
+  Location: Norwich, UK
 
 /* THANKS */
   Names (& URL): 
