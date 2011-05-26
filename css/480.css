@@ -1,0 +1,120 @@
+/* 480 
+
+_____________________________________________________
+
+320 and Up boilerplate extension
+
+Author: Andy Clarke
+Version: 0.9b
+URL: http://stuffandnonsense.co.uk/projects/320andup/
+License: http://creativecommons.org/licenses/MIT/
+_____________________________________________________
+
+1.ROOT
+2.HEADINGS
+3.TYPOGRAPHY
+4.LINKS
+5.FIGURES & IMAGES
+6.TABLES
+7.FORMS (See css/mylibs/forms.css)
+8.BANNER — header[role="banner"]
+9.NAVIGATION — nav[role="navigation"]
+10.CONTENT
+11.MAIN — div[role="main"]
+12.COMPLIMENTARY — div[role="complementary"]
+13.CONTENTINFO — footer[role="contentinfo"]
+14.GLOBAL OBJECTS
+15.VENDOR-SPECIFIC 
+16.TEMPLATE SPECIFICS
+17.MODERNIZR
+
+*/
+
+div.vcard {
+	display: block;
+	width: 460px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+/* 1.ROOT */
+/* 2.HEADINGS */
+header h1, .content h2 {
+	padding: 0;
+	margin: 0;
+}
+
+header h1 a {
+	display: block;
+	width: 460px;
+	height: 383px;
+	background: url(../img/bhc/brandhomecare_logo_460.png) no-repeat;
+	text-indent: -999em;
+}
+
+.content h2 {
+	display: block;
+	width: 460px;
+	height: 107px;
+	background: url(../img/bhc/brandhomecare_tag_460.png) no-repeat;
+	text-indent: -999em;
+}
+
+.content .services {
+	display: block;
+	float: left;
+	width: 460px;
+	height: 34px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	background: url(../img/bhc/brandhomecare_services_460.png) no-repeat;
+	text-indent: -999em;
+}
+
+.content .services {
+	padding: 0;
+	margin: 0;
+}
+/* 3.TYPOGRAPHY */
+/* 4.LINKS */
+/* 5.FIGURES & IMAGES */
+/* 6.TABLES */
+/* 7.FORMS (See css/mylibs/forms.css) */
+/* 8.BANNER */
+/* 9.NAVIGATION */
+/* 10.CONTENT */
+/* 11.MAIN */
+/* 12.COMPLIMENTARY */
+/* 13.CONTENTINFO */
+footer .contact-tel, footer .contact-email {
+	display: block;
+	float: left;
+	width: 460px;
+	list-style: none;
+	margin: 0;
+	padding: 0 0 15px 0;
+}
+
+footer .contact-tel span.type {
+	display: none;
+}
+
+footer .contact-tel li {
+	float: left;
+	width: 230px;
+	text-align: center;
+}
+
+footer .contact-email li {
+	float: left;
+	width: 460px;
+	text-align: center;
+}
+/* 14.GLOBAL OBJECTS */
+html {
+	font-size: 18px;
+}
+/* 15.VENDOR-SPECIFIC */
+/* 16.TEMPLATE SPECIFICS */
+/* 17.MODERNIZR */
